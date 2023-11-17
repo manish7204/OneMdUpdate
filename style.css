@@ -1,0 +1,128 @@
+* {
+
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 50px 27px 24px 49px;
+  font-size: 28px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Container {
+  text-align: center;
+  background-color: #090c28;
+  width: 100%;
+  max-width: 360px;
+  height: 100%;
+  padding: 0 0 61px
+}
+
+
+.RegisterBtn {
+  width: 100%;
+  max-width: 240px;
+  min-width: 200px;
+  height: 100%;
+  padding: 9px 62.7px 9px 62.7px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #00836c;
+
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.LoginBtn {
+  width: 100%;
+  max-width: 240px;
+  min-width: 200px;
+  height: 100%;
+margin-top: 20px;
+  padding: 9px 53px 9px 47px;
+  border-radius: 20px;
+  border: solid 2px #00836c;
+  border-style: none;
+  background-color: #fff;
+
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #00836c;
+}
+
+/* .DoctorImg{
+  height: 260px;
+  width: 230px;
+  position: relative;
+  
+} */
+.DoctorImg img {
+  height: 290px;
+  width: 278px;
+  margin: 24px 82px 37px 0;
+  object-fit: contain;
+}
+
+/* .ViewDoctorBtn{
+  margin-top: 110px;
+} */
+
+.ViewDoctorBtn {
+  width: 100%;
+  max-width: 240px;
+  min-width: 200px;
+  height: 100%;
+  margin-top: 70px;
+  padding: 9px 53px 9px 47px;
+  border-radius: 20px;
+  border: solid 2px #00836c;
+  border-style: none;
+  background-color: #fff;
+
+
+
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 0.39px;
+  text-align: center;
+  color: #00836c;
+
+}
+
+.DoctorImg{
+  height: 100%;
+  width: 100%;
+  min-width: 100px;
+}

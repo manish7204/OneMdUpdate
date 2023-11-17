@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;1,6..12,300&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+
+    <div class="contianer">
+        <div class="HOne">
+            <h1>Registration</h1>
+        </div>
+        <span class="Diagnosis">
+            Contact Information
+        </span>
+
+        <br><br>
+        <div class="inputTags">
+            <form>
+                <div class="input1">
+                <label class="Mobile-Number">Mobile Number</label><br>
+                <input type="tel" id="TelNum" onchange="numvalidate()">
+                <img  class="num_off" src="assets/num.png" width="22px" height="19px">
+                <p id="NumCheck"></p>
+            </div>
+                <br>
+                <label class="Email-Address">Email Addrees</label><br>
+                <input type="email" id="Email" onchange="validateEmailAddress(this.value)">
+                <p id="EmailCheck"></p>
+                <br> <br>
+                <label class="Full-Name">Full Name</label><br>
+                <input type="text" id="FullName">
+                <br> <br>
+                <div class="input2">
+                    <label class="Set-Password">Password</label><br>
+                <input type="password"  id="Password" onchange="checkPassword()">
+                <img onclick="showPassword()" class="del_off" id="setPass" src="assets/delete.png" width="22px" height="19px">
+                <p id="PasswordCheck"></p>
+                </div>
+               
+                <br>
+                <div class="input3">
+                    <label class="Confirm-Password">Confirm Password</label><br>
+                <input type="password" id="ConformPassword" onchange="passwordValidate()">
+                <img onclick="conformPassword()" class="Componentsiconsvisibility_off" src="assets/delete.png" width="22px" height="19px">
+                <p id="ConformPasswordCheck"></p>
+                </div>
+                
+                <br>
+                <label class="Date-of-Graduation">Date Of Graduation</label><br>
+                <input type="date" id="DateOfGraduation">
+                <br> <br>
+                <label class="Degree-1">Degree 1</label><br>
+                <input type="text" id="DegreeOne">
+
+
+                <div id="AddDegreeInput">
+
+                </div>
+                <br>
+                <button class="AddAnotherBtn" onclick="AddanotherDegree(event)">Add Another</button>
+                <br>
+
+                <div class="ConsultfeeDiv">
+                    <label class="Online-Consult-Fee ">Online Consult Fee</label><br>
+                    <input type="number" id="OnlineFee" placeholder="&#x20b9;">
+                    <br> <br>
+                    <label class="In-Person-Consult-Fe ">In Person Consult</label><br>
+                    <input type="number" id="InPersonfee" placeholder="&#x20b9;">
+                    <br> <br>
+
+                    <button class="SubmitBtn" onclick="submitAndRedirect()">Submit</button>
+                   
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Register.js"></script>
+
+</body>
+
+</html>
