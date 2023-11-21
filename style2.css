@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    margin: 0; 
+}
+
+
+.navbar1{
+   
+}
+
+.allelement{
+
+    height: 100%;
+    width: 100%;
+    background-color: #20254d;
+    display: flex;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.maxwidth{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchandlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  /* float: left; */
+}
+
+.allIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    /* margin: 5px 0px 1px 4px;
+    padding: 4px 2.7px 5.3px 2.7px; */
+    /* justify-content: space-around; */
+}
+
+/* .logo{
+    display: flex;
+    justify-content: start;
+} */
